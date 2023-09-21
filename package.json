@@ -4,8 +4,9 @@
   "description": "Course project",
   "private": true,
   "scripts": {
-    "webpack": "npx webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --env port=3000",
+    "build:dev": "webpack --env mode=development",
+    "build:prod": "webpack --env mode=production"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",

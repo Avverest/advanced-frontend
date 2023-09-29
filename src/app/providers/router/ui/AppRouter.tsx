@@ -6,7 +6,17 @@ export function AppRouter () {
   return (
     <Suspense fallback='Loading...'>
       <Routes>
-        {Object.values(routeConfig).map((routeParams, index) => <Route {...routeParams} key={index} />)}
+        {Object.values(routeConfig).map(({element, ...routeParams}, index) => (
+          <Route
+            {...routeParams}
+            element={(
+              <div className='wrapper'>
+                {element}
+              </div>
+            )}
+            key={index}
+          />
+        ))}
       </Routes>
     </Suspense>
   );

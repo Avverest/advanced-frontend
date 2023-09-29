@@ -1,3 +1,18 @@
 .Button {
   cursor: pointer;
+  color: inherit;
+  box-shadow: 0 0 0 2px black;
+  border-radius: 5px;
+}
+
+.default {
+  padding: 0.2rem 1.5rem;
+}
+
+.short {
+  padding: 0.2rem 0;
+}
+
+.icon {
+  box-shadow: none;
 }

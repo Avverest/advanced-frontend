@@ -2,7 +2,7 @@ import './styles/index.scss'
 import {useTheme} from './providers/ThemeProvider'
 import {classNames} from 'shared'
 import {AppRouter} from './providers/router'
-import {Navbar} from 'widgets'
+import {Navbar, Sidebar} from 'widgets'
 
 export function App () {
   const {theme} = useTheme()
@@ -10,7 +10,10 @@ export function App () {
   return (
     <div className={classNames('app', {}, [theme])}>
       <Navbar />
-      <AppRouter />
+      <div className='content'>
+        <Sidebar />
+        <AppRouter />
+      </div>
     </div>
   )
 }

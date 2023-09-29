@@ -14,3 +14,12 @@
 a {
 	color: var(--secondar-color);
 }
+
+.content {
+	display: flex;
+}
+
+.content-page {
+	flex-grow: 1;
+	padding: 1rem;
+}

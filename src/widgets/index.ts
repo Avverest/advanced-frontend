@@ -1,2 +1,3 @@
-export { Navbar } from './Navbar/ui/Navbar'
-export { ThemeSwitcher } from './ThemeSwitcher/ui/ThemeSwitcher'
+export { Navbar } from './Navbar'
+export { ThemeSwitcher } from './ThemeSwitcher'
+export { Sidebar } from './Sidebar'

@@ -1,7 +1,6 @@
 import {FC} from 'react'
 import {AppLink, AppLinkTheme, classNames} from 'shared'
 import cls from './Navbar.module.scss'
-import {ThemeSwitcher} from 'widgets'
 
 
 interface NavbarProps {

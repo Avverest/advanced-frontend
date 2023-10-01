@@ -1,12 +1,12 @@
 import './styles/index.scss'
-import {useTheme} from './providers/ThemeProvider'
-import {classNames} from 'shared'
-import {AppRouter} from './providers/router'
-import {Navbar, Sidebar} from 'widgets'
-import 'shared';
-import {Suspense} from 'react'
-export function App () {
-  const {theme} = useTheme()
+import { classNames } from 'shared'
+import { Navbar, Sidebar } from 'widgets'
+import { Suspense } from 'react'
+import { AppRouter } from './providers/router'
+import { useTheme } from './providers/ThemeProvider'
+
+export function App() {
+  const { theme } = useTheme()
 
   return (
     <div className={classNames('app', {}, [theme])}>

@@ -44,7 +44,8 @@ module.exports = {
       'error',
       { markupOnly: true, onlyAttribute: [''] },
     ],
-    'max-len': ['error', { ignoreComments: true }],
+    'max-len': ['error', { code: 100, ignoreComments: true }],
+    'react/no-array-index-key': 'off',
   },
   globals: {
     __IS_DEV__: true,

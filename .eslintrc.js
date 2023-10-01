@@ -23,6 +23,7 @@ module.exports = {
   ],
   rules: {
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.tsx'] }],
+    'jsx-quotes': ['error', 'prefer-single'],
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
     'no-unused-vars': 'warn',
@@ -35,7 +36,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'no-underscore-dangle': 'off',
     semi: ['error', 'never'],
-    'i18next/no-literal-string': ['error', { markupOnly: true }],
+    'i18next/no-literal-string': ['error', { markupOnly: true, onlyAttribute: [''] }],
   },
   globals: {
     __IS_DEV__: true,

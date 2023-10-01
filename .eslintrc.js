@@ -23,7 +23,10 @@ module.exports = {
     'i18next',
   ],
   rules: {
-    'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.tsx'] }],
+    'react/jsx-filename-extension': [
+      2,
+      { extensions: ['.js', '.jsx', '.tsx'] },
+    ],
     'jsx-quotes': ['error', 'prefer-single'],
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',

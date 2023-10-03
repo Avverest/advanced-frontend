@@ -1,7 +1,7 @@
 import { RouteProps } from 'react-router-dom'
 import { MainPage } from 'pages/Main'
 import { AboutPage } from 'pages/About'
-import { AppRoutes, RoutePath } from 'shared'
+import { AppRoutes, RoutePath } from 'shared/config'
 import { NotFound } from 'pages/NotFound'
 
 export const routeConfig: Record<AppRoutes, RouteProps> = {

@@ -1,7 +1,7 @@
 import './styles/index.scss'
-import { classNames } from 'shared'
 import { Navbar, Sidebar } from 'widgets'
 import { Suspense } from 'react'
+import { classNames } from 'shared/lib'
 import { AppRouter } from './providers/router'
 import { useTheme } from './providers/ThemeProvider'
 

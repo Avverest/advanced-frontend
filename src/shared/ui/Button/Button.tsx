@@ -18,12 +18,14 @@ export const Button: FC<ButtonProps> = (props) => {
     children,
     theme = ButtonTheme.TEST,
     variant = 'default',
+    type = 'button',
     ...passedProps
   } = props
 
   return (
     <button
       {...passedProps}
+      type={type}
       className={
         classNames(
           cls.Button,

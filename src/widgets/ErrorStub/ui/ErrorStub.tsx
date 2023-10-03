@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Button } from 'shared'
+import { Button } from 'shared/ui'
 import cls from './ErrorStub.module.scss'
 
 export const ErrorStub: FC = () => {

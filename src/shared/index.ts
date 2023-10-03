@@ -1,6 +1,0 @@
-export { classNames } from './lib'
-export { AppRoutes, RoutePath } from './config/routePath/routePath'
-export { AppLink, AppLinkTheme } from './ui/AppLink/AppLink'
-export { Button, ButtonTheme } from './ui/Button/Button'
-export * from './config/i18n/i18n'
-export { Loader } from './ui/Loader/Loader'

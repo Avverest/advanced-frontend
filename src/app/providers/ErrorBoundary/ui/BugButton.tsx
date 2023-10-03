@@ -1,5 +1,5 @@
 import { FC, useEffect, useState } from 'react'
-import { Button } from 'shared'
+import { Button } from 'shared/ui'
 
 // TODO: Удалить компонент после окончания тестирования
 export const BugButton: FC = () => {

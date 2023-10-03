@@ -1,4 +1,4 @@
-import { classNames } from 'shared'
+import { classNames } from 'shared/lib'
 
 describe('classNames', () => {
   test('without params', () => {

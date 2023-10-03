@@ -46,6 +46,7 @@ module.exports = {
     ],
     'max-len': ['error', { code: 100, ignoreComments: true }],
     'react/no-array-index-key': 'off',
+    'react/button-has-type': 'off',
   },
   globals: {
     __IS_DEV__: true,

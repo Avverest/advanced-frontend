@@ -16,21 +16,23 @@ export default {
   // Automatically clear mock calls, instances, contexts and results before every test
   clearMocks: true,
   testEnvironment: 'jsdom',
-  moduleDirectories: [
-    'node_modules',
-  ],
   coveragePathIgnorePatterns: [
-    '/node_modules/',
+    '\\\\node_modules\\\\',
   ],
   moduleFileExtensions: [
     'js',
-    'mjs',
-    'cjs',
     'jsx',
     'ts',
     'tsx',
     'json',
     'node',
+  ],
+  moduleDirectories: [
+    'node_modules',
+    'src',
+  ],
+  modulePaths: [
+    '<rootDir>src',
   ],
   testMatch: [
     '<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)',

@@ -13,6 +13,6 @@ export const LanguageSwitcher: FC<LanguageSwitcherProps> = () => {
   }
 
   return (
-    <Button onClick={onToggle}>{t('Язык')}</Button>
+    <Button variant='short' onClick={onToggle}>{t('Язык')}</Button>
   )
 }

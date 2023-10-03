@@ -2,5 +2,9 @@
   "Язык": "Английский",
   "Страница не найдена": "Page not found",
   "О сайте": "About",
-  "Главная": "Main"
+  "Главная": "Main",
+  "Скрыть": "Hide",
+  "Открыть": "Open",
+  "Заглушка при ошибке": "Sorry! Something went wrong, please reload page.",
+  "Перезагрузить": "Reload page"
 }

@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { AppLink, AppLinkTheme } from 'shared/ui'
+import { AppLink } from 'shared/ui'
 import { useTranslation } from 'react-i18next'
 import { classNames } from 'shared/lib'
 import cls from './Navbar.module.scss'
@@ -14,8 +14,8 @@ export const Navbar: FC<NavbarProps> = (props) => {
   return (
     <div className={classNames(cls.Navbar, {}, [className])}>
       <div className={cls.links}>
-        <AppLink theme={AppLinkTheme.SECONDARY} to='/about'>{t('О сайте')}</AppLink>
-        <AppLink theme={AppLinkTheme.SECONDARY} to='/'>{t('Главная')}</AppLink>
+        <AppLink variant='secondary' to='/about'>{t('О сайте')}</AppLink>
+        <AppLink variant='secondary' to='/'>{t('Главная')}</AppLink>
       </div>
     </div>
   )

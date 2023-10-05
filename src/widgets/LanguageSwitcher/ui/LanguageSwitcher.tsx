@@ -2,13 +2,10 @@ import { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Button } from 'shared/ui'
 
-interface LanguageSwitcherProps {
-}
-
-export const LanguageSwitcher: FC<LanguageSwitcherProps> = () => {
+export const LanguageSwitcher: FC = () => {
   const { t, i18n } = useTranslation()
 
-  const onToggle = async (): void => {
+  const onToggle = async () => {
     i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru')
   }
 

@@ -13,8 +13,8 @@
     "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
     "test": "jest --config ./config/jest/jest.config.ts",
     "bundle-report": "webpack-bundle-analyzer --port 4200 build/stats.json",
-    "storybook": "storybook dev -p 6006 -c ./config/storybook",
-    "build-storybook": "storybook build -c ./config/storybook"
+    "storybook": "storybook dev -p 6006 -c config/storybook",
+    "build-storybook": "storybook build -c config/storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -60,7 +60,6 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "json-server": "^0.17.0",
-    "loki": "^0.28.1",
     "mini-css-extract-plugin": "^2.5.3",
     "react-refresh": "^0.12.0",
     "reg-cli": "^0.17.6",

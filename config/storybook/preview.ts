@@ -1,6 +1,6 @@
 import type { Preview } from '@storybook/react'
-import { RouteDecorator, StyleDecorator, ThemeDecorator } from 'shared/storybook'
-import { Theme } from 'app/providers/ThemeProvider'
+import { RouteDecorator, StyleDecorator, ThemeDecorator } from 'src/shared/storybook'
+import { Theme } from 'src/app/providers/ThemeProvider'
 
 const preview: Preview = {
   parameters: {

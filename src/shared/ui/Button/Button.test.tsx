@@ -7,7 +7,7 @@ describe('Button', () => {
     expect(screen.getByText('TEST')).toBeInTheDocument()
   })
   test('Icon button', () => {
-    render(<Button variant='icon'>TEST</Button>)
+    render(<Button variant='clear'>TEST</Button>)
     expect(screen.getByText('TEST')).toHaveClass('icon')
     screen.debug()
   })

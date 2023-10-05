@@ -1,6 +1,6 @@
 import { screen } from '@testing-library/react'
 import { Sidebar } from 'widgets'
-import { renderWithTranslation } from 'shared/lib'
+import { renderWithTranslation } from 'shared/lib/tests/renderWithTranslation/renderWithTranslation'
 import { userEvent } from '@storybook/testing-library'
 
 describe('Sidebar', () => {

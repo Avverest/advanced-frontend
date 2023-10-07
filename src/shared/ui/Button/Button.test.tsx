@@ -8,7 +8,6 @@ describe('Button', () => {
   })
   test('Icon button', () => {
     render(<Button variant='clear'>TEST</Button>)
-    expect(screen.getByText('TEST')).toHaveClass('icon')
-    screen.debug()
+    expect(screen.getByText('TEST')).toHaveClass('clear')
   })
 })

@@ -9,6 +9,7 @@
 
 # build
 /build
+/storybook-static
 
 # misc
 .env*.local

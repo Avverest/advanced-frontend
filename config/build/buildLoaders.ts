@@ -7,7 +7,7 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
   const svgLoader = buildSvgLoader()
 
   const resourceLoader = {
-    test: /\.(png|jpg|gif)$/i,
+    test: /\.(png|jpg|gif|woff2)$/i,
     type: 'asset/resource',
   }
 

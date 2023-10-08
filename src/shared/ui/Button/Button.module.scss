@@ -1,18 +1,65 @@
 .Button {
   cursor: pointer;
-  color: inherit;
-  box-shadow: 0 0 0 2px black;
+  //color: inherit;
   border-radius: 5px;
-}
-
-.default {
-  padding: 0.2rem 1.5rem;
-}
-
-.short {
+  background-color: var(--primary-color);
+  color: var(--inverted-primary-color);
   padding: 0.2rem 0;
 }
 
+.outlined {
+  background-color: var(--inverted-primary-color);
+  color: var(--primary-color);
+  box-shadow: 0 0 0 2px black;
+}
+
 .clear {
-  box-shadow: none;
+  color: inherit;
+  box-shadow: unset;
+  border-radius: unset;
+  background-color: unset;
+}
+
+.m {
+  min-width: var(--font-line-m);
+  height: var(--font-line-m);
+}
+
+.l {
+  min-width: var(--font-line-l);
+  height: var(--font-line-l);
+}
+
+.xl {
+  min-width: var(--font-line-xl);
+  height: var(--font-line-xl);
+}
+
+.square.m {
+  width: var(--font-line-m);
+  height: var(--font-line-m);
+}
+
+.square.l {
+  width: var(--font-line-l);
+  height: var(--font-line-l);
+}
+
+.square.xl {
+  width: var(--font-line-xl);
+  height: var(--font-line-xl);
+}
+
+.primary {
+  background-color: var(--bg-color);
+}
+
+.secondary {
+  background-color: var(--secondar-color);
+  color: var(--inverted-secondar-color);
+}
+
+.inverted {
+  background-color: var(--inverted-bg-color);
+  color: var(--inverted-primary-color);
 }

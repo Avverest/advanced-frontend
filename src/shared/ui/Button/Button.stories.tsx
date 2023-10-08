@@ -16,16 +16,30 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    variant: 'default',
     children: 'Click',
   },
 }
 
-// TODO: Подумать о стилях для кнопки
 export const Clear: Story = {
   args: {
     variant: 'clear',
     children: 'Click',
+  },
+  decorators: [ThemeDecorator(Theme.DARK)],
+}
+
+export const OutlinedLight: Story = {
+  args: {
+    variant: 'outlined',
+    children: 'Text',
+  },
+  decorators: [],
+}
+
+export const OutlinedDark: Story = {
+  args: {
+    variant: 'outlined',
+    children: 'Text',
   },
   decorators: [ThemeDecorator(Theme.DARK)],
 }

@@ -1,9 +1,11 @@
 import { Decorator } from '@storybook/react'
 import 'app/styles/index.scss'
-import { Theme } from 'app/providers/ThemeProvider'
+import { Theme, ThemeProvider } from 'app/providers/ThemeProvider'
 
 export const ThemeDecorator = (theme: Theme): Decorator => (Story) => (
-  <div className={`app ${theme}`}>
-    <Story />
-  </div>
+  <ThemeProvider initTheme={theme}>
+    <div className='app'>
+      <Story />
+    </div>
+  </ThemeProvider>
 )

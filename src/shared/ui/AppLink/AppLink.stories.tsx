@@ -19,21 +19,18 @@ type Story = StoryObj<typeof meta>;
 
 export const PrimaryLight: Story = {
   args: {
-    variant: 'primary',
     children: 'Link',
   },
 }
 
 export const SecondaryLight: Story = {
   args: {
-    variant: 'secondary',
     children: 'Link',
   },
 }
 
 export const PrimaryDark: Story = {
   args: {
-    variant: 'primary',
     children: 'Link',
   },
   decorators: [ThemeDecorator(Theme.DARK)],
@@ -41,7 +38,6 @@ export const PrimaryDark: Story = {
 
 export const SecondaryDark: Story = {
   args: {
-    variant: 'secondary',
     children: 'Link',
   },
   decorators: [ThemeDecorator(Theme.DARK)],

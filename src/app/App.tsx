@@ -11,9 +11,9 @@ export function App() {
   return (
     <div className={classNames('app', {}, [theme])}>
       <Suspense fallback='Loading...'>
-        <Navbar />
+        <Sidebar />
         <div className='content'>
-          <Sidebar />
+          <Navbar />
           <AppRouter />
         </div>
       </Suspense>

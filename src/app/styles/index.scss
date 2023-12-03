@@ -6,19 +6,28 @@
 .app {
   font: var(--font-m);
   background-color: var(--bg-color);
-  color: var(--primary-color);
+  color: var(--text-color);
   min-height: 100vh;
   width: 100%;
   display: flex;
-  flex-direction: column;
 }
 
-a {
-  color: var(--secondar-color);
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--success-color);
+}
+
+p {
+  max-width: 100ch;
 }
 
 .content {
   display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .wrapper {

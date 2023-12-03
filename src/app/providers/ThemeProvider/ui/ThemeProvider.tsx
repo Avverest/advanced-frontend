@@ -24,7 +24,6 @@ export const ThemeProvider: FC<ThemeProviderProps> = ({ children, initTheme }) =
       const removeTheme = theme === Theme.LIGHT ? Theme.DARK : Theme.LIGHT
       document.body.classList.remove(removeTheme)
       document.body.classList.add(theme)
-      console.log(theme)
     },
     [theme],
   )

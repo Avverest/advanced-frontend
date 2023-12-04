@@ -7,5 +7,7 @@
   "Открыть": "Open",
   "Заглушка при ошибке": "Sorry! Something went wrong, please reload page.",
   "Перезагрузить": "Reload page",
-  "Войти": "Sign In"
+  "Войти": "Sign In",
+  "increment": "increment",
+  "decrement": "decrement"
 }
